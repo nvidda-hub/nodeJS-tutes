@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    }
+#logo img{
+    height: 22px;
+    margin-right: 4px;
+}
+#navbar{
+    background-color: rgb(213, 3, 3);;
+    padding: 3px 4px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 25px;
+    color: azure;
+}
+#navbar li a:hover{
+    color: black;
+}
+
+#introduction {
+    color: white;
+    padding-bottom: 40px;
+    display: flex;
+    background: center / cover no-repeat url("../static/dance.jpg") ;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-size: 2rem;
+    flex-direction: column;
+}
+#introduction div.small{
+    font-size: 15px;
+}
+#missionSection{
+    height: 300px;
+    margin: auto;
+    width: 82%;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Yeon Sung';
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 17px 10px;
+    height: 181px;
+    display: inline-block;
+    
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+    width: 77px;
+}
+#sponsorsSection {
+    height: 156px;
+    background-color: rgb(228, 166, 166);
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Yeon Sung';
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.spImage{
+    height: 43%;
+    margin: 20px;
+}
+#footer{
+    display: flex;
+    background-color: black;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: 'Yeon Sung';
+    color: white;
+}

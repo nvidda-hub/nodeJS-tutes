@@ -1,0 +1,4 @@
+we will be reading this file using, nodejs fs module.
+
+
+I am Anand Vidda, newcomer to nodejs.

@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Dance Academy | #{title}
+    block scripts
+    block style
+  body
+    nav#navbar.top.anotherClass
+          ul
+            div#logo
+              img(src="/static/logos/logo.jpg")
+              | VDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer
+      | Copyright © 2022 vidda-hub/NarendraVidda | All Rights Reserved
